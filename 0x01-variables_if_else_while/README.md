@@ -2,10 +2,10 @@
 
 ![header](https://preview.redd.it/fm7z08nffkk51.jpg?auto=webp&s=fb9c5560d1405a0c68cb7c82d828bf5c31434c2b)
 
-## Task 0. Positive anything is better than negative nothing
-[`0-positive_or_negative.c`](0-positive_or_negative.c)  
+## Task 0.
+> "Positive Anything Is Better Than Negative Nothing." - Elbert Hubbard
 
-![Task 0](https://images.squarespace-cdn.com/content/v1/5c5c549090f904cc55471450/1573280545853-9CX0VP1HGGVNO9BOPXBZ/NOTETAKING+%2822%29.png?format=1000w)
+[`0-positive_or_negative.c`](0-positive_or_negative.c)  
 
 Assigns a random number to the variable `n` each time it is executed and prints whether the number stored in the variable `n` is positive or negative.
 
@@ -70,7 +70,10 @@ Last digit of 809065140 is 0 and is 0
 nkosana@ubuntu:~/0x01$
 ```
 
-## Task 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+## Task 2.
+
+> "I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game." - Roz Chast
+
 [`2-print_alphabet.c`](2-print_alphabet.c)  
 Prints the alphabet in lowercase, followed by a new line.
 
@@ -94,7 +97,10 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
 nkosana@ubuntu:~/0x01$ 
 ```
 
-## Task 4. When I was having that alphabet soup, I never thought that it would pay off
+## Task 4.
+
+> "When I was having that alphabet soup, I never thought that it would pay off." — Vanna White
+
 [`4-print_alphabt.c`](4-print_alphabt.c)  
 Prints the alphabet in lowercase, followed by a new line.
 
@@ -155,7 +161,10 @@ nkosana@ubuntu:~/0x01$ ./8-print_base16
 nkosana@ubuntu:~/0x01$
 ```
 
-## Task 9. Patience, persistence and perspiration make an unbeatable combination for success
+## Task 9.
+
+> "Patience, persistence and perspiration make an unbeatable combination for success." - Napoleon Hill
+
 [`9-print_comb.c`](9-print_comb.c)  
 Prints all possible combinations of single-digit numbers.
 
@@ -168,6 +177,9 @@ nkosana@ubuntu:~/0x01$
 ```
 
 ## Task 10. Inventing is a combination of brains and materials. The more brains you use, the less material you need
+
+> "Inventing is a combination of brains and materials. The more brains you use, the less material you need." - Charles Kettering
+
 [`100-print_comb3.c`](100-print_comb3.c)  
 Prints all possible different combinations of two digits.
 
@@ -179,7 +191,10 @@ nkosana@ubuntu:~/0x01$ ./100-print_comb3
 nkosana@ubuntu:~/0x01$ 
 ```
 
-## Task 11. The success combination in business is: Do what you do better... and: do more of what you do...
+## Task 11. 
+
+> "The success combination in business is: Do what you do better... and: do more of what you do." - David Joseph Schwartz
+
 [`101-print_comb4.c`](101-print_comb4.c)  
 Prints all possible different combinations of three digits.
 
@@ -191,7 +206,10 @@ nkosana@ubuntu:~/0x01$ ./101-print_comb4
 nkosana@ubuntu:~/0x01$ 
 ```
 
-## Task 12. I Software is eating the World
+## Task 12. 
+
+> "Software is eating the world," - wrote Marc Andreessen
+
 [`102-print_comb5.c`](102-print_comb5.c)  
 Prints all possible combinations of two two-digit numbers.
 
