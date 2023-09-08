@@ -6,7 +6,8 @@
  * main - a function containing the code to be executed, that
  * print the last digit of the number stored in the variable `n`.
  * 
- * Return: Always 0 (Success)
+ * Return: 0 if the program executed successfully and did what
+ * it was intended to do
  */
 
 int main(void)
