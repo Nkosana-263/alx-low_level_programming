@@ -163,7 +163,10 @@ nkosana@ubuntu:~/c/0x00$ echo $?
 nkosana@ubuntu:~/c/0x00$ 
 ```
 
-## Task 6. Size is not grandeur, and territory does not make a nation
+## Task 6. 
+
+> "Size is not grandeur, and territory does not make a nation." — Thomas Henry Huxley
+
 [`6-size.c`](6-size.c)  
 Prints the size of various types on the computer it is compiled and run on.
 
@@ -234,7 +237,10 @@ main:
 nkosana@ubuntu:~/c/0x00$
 ```
 
-## Task 8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
+## Task 8. 
+
+> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity." - Dennis Ritchie
+
 [`101-quote.c`](101-quote.c)  
 Prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19,` followed by a new line, to the standard error.
 
