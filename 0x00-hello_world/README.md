@@ -5,7 +5,7 @@
 [`0-preprocessor`](0-preprocessor)  
 Runs a C file through the preprocessor and save the result into another file.
 
-Example:
+*Example:*
 ```console
 nkosana@ubuntu:~/c/0x00$ cat main.c 
 #include <stdio.h>
@@ -39,7 +39,7 @@ nkosana@ubuntu:~/c/0x00$
 [`1-compiler`](1-compiler)  
 Compiles a C file but does not link.
 
-Example:
+*Example:*
 ```console
 nkosana@ubuntu:~/c/0x00$ export CFILE=main.c
 nkosana@ubuntu:~/c/0x00$ cat main.c
@@ -67,7 +67,7 @@ nkosana@ubuntu:~/c/0x00$ cat -v main.o | head
 [`2-assembler`](2-assembler)  
 Generates the assembly code of a C code and save it in an output file.
 
-Example:
+*Example:*
 ```console
 nkosana@ubuntu:~/c/0x00$ export CFILE=main.c
 nkosana@ubuntu:~/c/0x00$ cat main.c
@@ -114,7 +114,7 @@ nkosana@ubuntu:~/c/0x00$
 [`3-name`](3-name)  
 Compiles a C file and creates an executable named `cisfun`.
 
-Example:
+*Example:*
 ```console
 nkosana@ubuntu:~/c/0x00$ export CFILE=main.c
 nkosana@ubuntu:~/c/0x00$ cat main.c
@@ -140,7 +140,7 @@ nkosana@ubuntu:~/c/0x00$
 [`4-puts.c`](4-puts.c)  
 Prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 
-Example:
+*Example:*
 ```console
 nkosana@ubuntu:~/c/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
 "Programming is like building a multilingual puzzle
@@ -153,7 +153,7 @@ nkosana@ubuntu:~/c/0x00$
 [`5-printf.c`](5-printf.c)  
 Prints exactly with `proper grammar, but the outcome is a piece of art,`, followed by a new line.
     
-Example:
+*Example:*
 ```console
 nkosana@ubuntu:~/c/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c
 nkosana@ubuntu:~/c/0x00$ ./a.out 
@@ -170,7 +170,7 @@ nkosana@ubuntu:~/c/0x00$
 [`6-size.c`](6-size.c)  
 Prints the size of various types on the computer it is compiled and run on.
 
-Example:
+*Example:*
 ```console
 nkosana@ubuntu:~/c/0x00$ gcc 6-size.c -m32 -o size32 2> /tmp/32
 nkosana@ubuntu:~/c/0x00$ gcc 6-size.c -m64 -o size64 2> /tmp/64
@@ -195,7 +195,7 @@ nkosana@ubuntu:~/c/0x00$
 [`100-intel`](100-intel)  
 Generates the assembly code (Intel syntax) of a C code and save it in an output file.
 
-Example:
+*Example:*
 ```console
 nkosana@ubuntu:~/c/0x00$ export CFILE=main.c
 nkosana@ubuntu:~/c/0x00$ cat main.c
@@ -244,7 +244,7 @@ nkosana@ubuntu:~/c/0x00$
 [`101-quote.c`](101-quote.c)  
 Prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19,` followed by a new line, to the standard error.
 
-Example:
+*Example:*
 ```console
 nkosana@ubuntu:~/c/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -o quote 101-quote.c
 nkosana@ubuntu:~/c/0x00$ ./quote
