@@ -4,6 +4,9 @@
 
 ## Task 0. Positive anything is better than negative nothing
 [`0-positive_or_negative.c`](0-positive_or_negative.c)  
+
+![Task 0](https://images.squarespace-cdn.com/content/v1/5c5c549090f904cc55471450/1573280545853-9CX0VP1HGGVNO9BOPXBZ/NOTETAKING+%2822%29.png?format=1000w)
+
 Assigns a random number to the variable `n` each time it is executed and prints whether the number stored in the variable `n` is positive or negative.
 
 Example:
