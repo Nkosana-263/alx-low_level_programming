@@ -104,3 +104,64 @@ nkosana@ubuntu:~/0x01$ ./4-print_alphabt | grep [eq]
 nkosana@ubuntu:~/0x01$ 
 ```
 
+## Task 5. Numbers
+[`5-print_numbers.c`](5-print_numbers.c)  
+Prints all single digit numbers of base 10 starting from `0`, followed by a new line.
+
+Example:
+```console
+nkosana@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
+nkosana@ubuntu:~/0x01$ ./5-print_numbers 
+0123456789
+nkosana@ubuntu:~/0x01$ 
+```
+
+## Task 6. Numberz
+[`6-print_numberz.c`](6-print_numberz.c)  
+Prints all single digit numbers of base 10 starting from `0`, followed by a new line
+
+Example:
+```console
+nkosana@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-print_numberz.c -o 6-print_numberz
+nkosana@ubuntu:~/0x01$ ./6-print_numberz 
+0123456789
+nkosana@ubuntu:~/0x01$ 
+```
+
+## Task 7. Smile in the mirror
+[`7-print_tebahpla.c`](7-print_tebahpla.c)  
+Prints the lowercase alphabet in reverse, followed by a new line.
+
+Example:
+```console
+nkosana@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
+nkosana@ubuntu:~/0x01$ ./7-print_tebahpla
+zyxwvutsrqponmlkjihgfedcba
+nkosana@ubuntu:~/0x01$
+```
+
+## Task 8. Hexadecimal
+[`8-print_base16.c`](8-print_base16.c)  
+Prints all the numbers of base 16 in lowercase, followed by a new line.
+
+Example:
+```console
+nkosana@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
+nkosana@ubuntu:~/0x01$ ./8-print_base16
+0123456789abcdef
+nkosana@ubuntu:~/0x01$
+```
+
+## Task 9. Patience, persistence and perspiration make an unbeatable combination for success
+[`9-print_comb.c`](9-print_comb.c)  
+Prints all possible combinations of single-digit numbers.
+
+Example:
+```console
+nkosana@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-print_comb.c -o 9-print_comb
+nkosana@ubuntu:~/0x01$ ./9-print_comb | cat -e
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
+nkosana@ubuntu:~/0x01$ 
+```
+
+
