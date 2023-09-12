@@ -21,7 +21,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = nextFib;
 
-		printf(", %lu", fib2);
+		printf(", %lu", nextFib);
 	}
 
 	j1 = fib1 / 1000000000;
