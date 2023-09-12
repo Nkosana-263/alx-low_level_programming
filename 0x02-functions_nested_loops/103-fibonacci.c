@@ -11,6 +11,7 @@ int main(void)
 	unsigned long int fib1 = 1;
 	unsigned long int fib2 = 2;
 	unsigned long int sum = 0;
+	unsigned long int nextFib;
 
 	while (fib1 <= 4000000)
 	{
@@ -19,13 +20,13 @@ int main(void)
 			sum += fib1;
 		}
 
-		unsigned long int nextFib = fib1 + fib2;
+		nextFib = fib1 + fib2;
 		
 		fib1 = fib2;
 		fib2 = nextFib;
 	}
 
-	printf("%ul\n", sum);
+	printf("%lu\n", sum);
 
 	return (0);
 }
