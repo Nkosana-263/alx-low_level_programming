@@ -3,7 +3,6 @@
 /**
  * print_times_table - Prints the n times table, starting with 0
  * @n: The number of times
- *
  * Return: void
  */
 void print_times_table(int n)
@@ -33,7 +32,6 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar(' ');
 			}
-
 			if (result >= 100)
 			{
 				_putchar(' ');
@@ -43,10 +41,8 @@ void print_times_table(int n)
 			{
 				_putchar((result / 10) + '0');
 			}
-
 			_putchar((result % 10) + '0');
 		}
-
 		_putchar('\n');
 	}
 }
