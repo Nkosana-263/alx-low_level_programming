@@ -8,22 +8,22 @@
  */
 int main(void)
 {
-	unsigned int fib1 = 1;
-	unsigned int fib2 = 2;
+	unsigned long int fib1 = 1;
+	unsigned long int fib2 = 2;
 	int i;
-	
+
 	printf("%u, %u", fib1, fib2);
 
 	for (i = 3; i <= 98; i++)
 	{
-		unsigned int nextFib = fib1 + fib2;
+		unsigned long int nextFib = fib1 + fib2;
 
-		printf(", %u", nextFib);
+		printf(", %lu", nextFib);
 
 		fib1 = fib2;
 		fib2 = nextFib;
 	}
-	
+
 	printf("\n");
 
 	return (0);
