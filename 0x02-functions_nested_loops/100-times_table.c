@@ -15,14 +15,13 @@ void print_times_table(int n)
 
 	for (i = 0; i <= n; i++)
 	{
-		_putchar('0'); // Print the first digit
+		_putchar('0');
 
 		for (j = 1; j <= n; j++)
 		{
 			int result = i * j;
-			_putchar(','); // Print comma before each number
-			
-			// Print spaces to align numbers properly
+			_putchar(',');
+
 			if (result < 10)
 			{
 				_putchar(' ');
@@ -31,8 +30,7 @@ void print_times_table(int n)
 			{
 				_putchar(' ');
 			}
-			
-			// Print the two or three-digit number
+
 			if (result >= 100)
 			{
 				_putchar((result / 100) + '0');
@@ -42,7 +40,7 @@ void print_times_table(int n)
 				_putchar((result / 10) + '0');
 			}
 
-			_putchar((result % 10) + '0'); // Print the last digit
+			_putchar((result % 10) + '0');
 		}
 
 		_putchar('\n'); // Move to the next line after each row is printed
