@@ -9,6 +9,7 @@
 int main(void)
 {
 	unsigned long int i, j, k, j1, j2, k1, k2;
+	unsigned long int temp_k1, temp_k2, temp_j1, temp_j2;
 
 	j = 1;
 	k = 2;
@@ -30,10 +31,10 @@ int main(void)
 	for (i = 92; i < 99; ++i)
 	{
 		printf(", %lu%09lu", k1, k2);
-		unsigned long int temp_k1 = k1;
-		unsigned long int temp_j1 = j1;
-		unsigned long int temp_k2 = k2;
-		unsigned long int temp_j2 = j2;
+		emp_k1 = k1;
+		temp_j1 = j1;
+		temp_k2 = k2;
+		temp_j2 = j2;
 
 		k1 += temp_j1;
 		temp_j1 = k1 - temp_j1;
