@@ -12,7 +12,7 @@ int main(void)
 	unsigned long int fib2 = 2;
 	int i;
 
-	printf("%u, %u", fib1, fib2);
+	printf("%lu, %lu", fib1, fib2);
 
 	for (i = 3; i <= 98; i++)
 	{
