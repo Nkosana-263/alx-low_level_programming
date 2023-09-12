@@ -14,6 +14,9 @@ int print_last_digit(int num)
 		num *= -1;  /* Convert negative number to positive */
 	
 	last_digit = num % 10;
+
+	if (last_digit < 0)
+		last_digit *= -1;  /* Convert negative number to positive */
 	
 	_putchar(last_digit + '0');
 	
