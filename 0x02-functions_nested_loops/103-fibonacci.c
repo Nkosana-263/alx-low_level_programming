@@ -22,7 +22,7 @@ int main(void)
 		}
 
 		nextFib = fib1 + fib2;
-		
+
 		fib1 = fib2;
 		fib2 = nextFib;
 	}
