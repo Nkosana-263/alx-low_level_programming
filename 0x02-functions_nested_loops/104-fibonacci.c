@@ -10,7 +10,7 @@ int main(void)
 {
 	unsigned long int i, fib1_temp1, fib1_temp2, fib2_temp1, fib2_temp2;
 
-	usigned long int fib1 = 1;
+	unsigned long int fib1 = 1;
 	unsigned long int fib2 = 2;
 
 	printf("%lu", fib1);
