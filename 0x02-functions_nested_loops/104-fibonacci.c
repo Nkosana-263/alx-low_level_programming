@@ -31,7 +31,7 @@ int main(void)
 	for (i = 92; i < 99; ++i)
 	{
 		printf(", %lu%09lu", k1, k2);
-		emp_k1 = k1;
+		temp_k1 = k1;
 		temp_j1 = j1;
 		temp_k2 = k2;
 		temp_j2 = j2;
