@@ -18,7 +18,7 @@ void print_number(int n)
 		n_pos = n;
 	}
 
-	if (n_pos / 10 == 0)
+	if (n_pos / 10)
 		print_number(n_pos / 10);
 
 	_putchar((n_pos % 10) + '0');
