@@ -5,7 +5,7 @@
  * @a: Pointer to the array
  * @n: Number of elements to print
  */
-voidid print_array(int *a, int n)
+void print_array(int *a, int n)
 {
 	int i;
 
