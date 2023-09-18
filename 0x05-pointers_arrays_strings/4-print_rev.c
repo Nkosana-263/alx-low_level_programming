@@ -6,8 +6,9 @@
  *
  * Description: This function takes a pointer to a string as a parameter
  * and prints the characters of the string in reverse order. It starts from
- * the end of the string and goes backwards until it reaches the first character.
- * After printing all characters in reverse, it prints a new line character.
+ * the end of the string and goes backwards until it reaches the first
+ * character. After printing all characters in reverse, it prints a
+ * new line character.
  */
 
 void print_rev(char *s)
