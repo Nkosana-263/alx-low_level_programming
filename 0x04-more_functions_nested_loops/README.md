@@ -1,6 +1,6 @@
 ﻿# C - More functions, more nested loops
 
-![header](https://i.stack.imgur.com/Qn5ZL.jpg)
+![header](https://i.pinimg.com/originals/c6/4e/fc/c64efc9adaedbf446f328698e8b67388.jpg)
 
 ## Task 0. isupper
 [`0-isupper.c`](0-isupper.c)  
