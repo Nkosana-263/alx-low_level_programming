@@ -10,3 +10,4 @@ This repo contains low-level programmimng exercises perfomed in partial fulfillm
 |[0x02. C - Functions, nested loops](0x02-functions_nested_loops)                     |   Introduction to functions and nested loops       |
 |[0x03. C - Debugging](0x03-debugging)                                                |   Debugging techniques                             |
 |[0x04. C - More functions, more nested loops](0x04-more_functions_nested_loops)      |   A deeper dive into functions and nested loops    |
+|[0x05. C - Pointers, arrays and strings](0x05-pointers_arrays_strings)               |   An introduction to pointers, arrays and strings  |
