@@ -39,5 +39,5 @@ largest of three numbers.
 
 ## Task 3. Leap year
 [`3-print_remaining_days.c`](3-print_remaining_days.c)  
-Fix the `print_remaining_days()` function so that the output
+Fixed the `print_remaining_days()` function so that the output
 works correctly for all dates and all leap years.
