@@ -28,11 +28,17 @@ a: 0
 nkosana@ubuntu:~/0x04$ 
 ```
 
-## Task 2. Collaboration is multiplication
+## Task 2. 
+
+> "Collaboration is multiplication" - John C. Maxwell
+
 [`2-mul.c`](2-mul.c)  
 Multiplies two integers.  
 
-## Task 3. ## Task 0. _putchar
+## Task 3. 
+
+> "The numbers speak for themselves"
+
 [`3-print_numbers.c`](3-print_numbers.c)  
 Prints the numbers, from `0` to `9`, followed by a new line.  
 
@@ -44,7 +50,10 @@ nkosana@ubuntu:~/0x04$ ./3-print_numbers | cat -e
 nkosana@ubuntu:~/0x04$ 
 ```
 
-## Task 4. I believe in numbers and signs
+## Task 4. 
+
+> "I believe in numbers and signs" - Vikram Chatwal
+
 [`4-print_most_numbers.c`](4-print_most_numbers.c)  
 Prints the numbers, from `0` to `9` excluding `2` and `4`, followed by a new line.  
 
@@ -56,7 +65,10 @@ nkosana@ubuntu:~/0x04$ ./4-print_most_numbers
 nkosana@ubuntu:~/0x04$ 
 ```
 
-## Task 5. Numbers constitute the only universal language
+## Task 5. 
+
+> "Numbers constitute the only universal language" - Nathanael West
+
 [`5-more_numbers.c`](5-more_numbers.c)  
 Prints 10 times the numbers, from `0` to `14`, followed by a new line.  
 
@@ -77,16 +89,25 @@ nkosana@ubuntu:~/0x04$ ./5-more_numbers
 nkosana@ubuntu:~/0x04
 ```
 
-## Task 6. The shortest distance between two points is a straight line
+## Task 6. 
+
+> "The shortest distance between two points is a straight line" - Archimedes
+
 [`6-print_line.c`](6-print_line.c)  
 Draws a straight line in the terminal.  
 
 
-## Task 7. I feel like I am diagonally parked in a parallel universe
+## Task 7. 
+
+> "I feel like I am diagonally parked in a parallel universe" - Anonymous
+
 [`7-print_diagonal.c`](7-print_diagonal.c)  
 Draws a diagonal line on the terminal.  
 
-## Task 8. You are so much sunshine in every square inch
+## Task 8. 
+
+> "You are so much sunshine in every square inch" - Walt Whitman
+
 [`8-print_square.c`](8-print_square.c)  
 Prints a square, followed by a new line.  
 
@@ -110,9 +131,11 @@ nkosana@ubuntu:~/0x04$
 Prints a triangle, followed by a new line.     
 
 
-## Task 11. The problem of distinguishing prime numbers from composite numbers
-and of resolving the latter into their prime factors is known to be one of
-the most important and useful in arithmetic
+## Task 11.
+
+> "The problem of distinguishing prime numbers from composite numbers and of resolving the
+> latter into their prime factors is known to be one of the most important and useful in arithmetic" - Carl Friedrich Gauss
+
 [`100-prime_factor.c`](100-prime_factor.c)  
 Finds and prints the largest prime factor of the
 number `612852475143`, followed by a new line.  
