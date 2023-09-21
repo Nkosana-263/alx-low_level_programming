@@ -11,7 +11,6 @@ char *cap_string(char *s)
 	int i;
 
 	i = 0;
-
 	while (s[i] != '\0')
 	{
 		if ((s[i - 1] == ' ' || s[i - 1] == '\n'
@@ -33,7 +32,6 @@ char *cap_string(char *s)
 		{
 			s[i] = s[i];
 		}
-
 		i++;
 	}
 	return (s);
