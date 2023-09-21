@@ -6,22 +6,23 @@
  *
  * Return: The encoded string.
  */
-char *rot13(char *str)
+char *rot13(char *s)
 {
-	int i;
+	int i = 0;
 
-	while (str != '\0')
+	while (s[i] != '\0')
 	{
-		if ((str >= 'a' && str <= 'm') || (str >= 'A' && str <= 'M'))
+		while ((s[i] >= 'a' && s[i] <= 'z') ||
+				(s[i] >= 'A' && s[i] <= 'Z'))
 		{
-			str += 13;
+			if ((s[i] >= 'a' && s[i] <= 'm') ||
+					(s[i] >= 'A' && s[i] <= 'M'))
+				s[i] += 13;
+			else
+				s[i] -= 13;
+			i++;
 		}
-		else if ((str >= 'n' && str <= 'z') || (str >= 'N' && str <= 'Z'))
-		{
-			str -= 13;
-		}
-		str++;
+		i++;
 	}
-
-	return (str);
+	return (s);
 }
