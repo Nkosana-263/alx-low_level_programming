@@ -6,29 +6,31 @@
  *
  * Return: A pointer to the resulting string str.
  */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 	int i;
 
-	for (i = 1; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' ||
-		    str[i] == ',' || str[i] == ';' || str[i] == '.' ||
-		    str[i] == '!' || str[i] == '?' || str[i] == '"' ||
-		    str[i] == '(' || str[i] == ')' || str[i] == '{' ||
-		    str[i] == '}')
+		if ((s[i - 1] == ' ' || s[i - 1] == '\n'
+		|| s[i - 1] == '\t' || s[i - 1] == ','
+		|| s[i - 1] == ';' || s[i - 1] == '!'
+		|| s[i - 1] == '?' || s[i - 1] == '"'
+		|| s[i - 1] == '(' || s[i - 1] == ')'
+		|| s[i - 1] == '{' || s[i - 1] == '}'
+		|| s[i - 1] == '.')
+		&& (s[i] >= 'a' && s[i] <= 'z'))
 		{
-			i++;
-
-			if (str[i] >= 'a' && str[i] <= 'z')
-				str[i] -= 32;
+			s[i] = s[i] - 32;
+		}
+		else if ((s[0] >= 97 && s[0] <= 122))
+		{
+			s[0] = s[0] - 32;
 		}
 		else
 		{
-			if (str[i] >= 'A' && str[i] <= 'Z')
-				str[i] += 32;
+			s[i] = s[i];
 		}
 	}
-
-	return (str);
+	return (s);
 }
