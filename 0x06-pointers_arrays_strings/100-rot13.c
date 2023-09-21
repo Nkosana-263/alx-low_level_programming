@@ -2,7 +2,7 @@
 
 /**
  * rot13 - Encodes a string using ROT13 algorithm.
- * @str: The string to be encoded.
+ * @s: The string to be encoded.
  *
  * Return: The encoded string.
  */
