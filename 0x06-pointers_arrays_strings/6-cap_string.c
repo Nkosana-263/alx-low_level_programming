@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes all words of a string.
- * @s: string.
- * Return: string.
+ * cap_string - Capitalizes all words of a string.
+ * @s: The string to be modified.
+ * Return: A pointer to the resulting string str.
  */
 char *cap_string(char *s)
 {
