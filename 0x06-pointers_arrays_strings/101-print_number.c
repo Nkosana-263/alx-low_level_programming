@@ -6,14 +6,19 @@
  */
 void print_number(int n)
 {
+	unsigned int n_pos;
+
 	if (n < 0)
 	{
+		n_pos = -n;
 		_putchar('-');
-		n = -n;
+	} else
+	{
+		n_pos = n;
 	}
 
-	if (n / 10)
-		print_number(n / 10);
+	if (n_pos / 10)
+		print_number(n_pos / 10);
 
-	_putchar((n % 10) + '0');
+	_putchar((n_pos % 10) + '0');
 }
