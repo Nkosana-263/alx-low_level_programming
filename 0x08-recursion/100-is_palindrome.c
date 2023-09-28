@@ -31,7 +31,8 @@ int _strlen(char *s)
 }
 
 /**
- * palindrome_helper - Helper function to check if a string is a palindrome recursively.
+ * palindrome_helper - Helper function to check if a
+ *                     string is a palindrome recursively.
  * @s: The string to check.
  * @start: The starting index of the substring to check.
  * @end: The ending index of the substring to check.
