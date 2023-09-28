@@ -11,3 +11,6 @@ This repo contains low-level programmimng exercises perfomed in partial fulfillm
 |[0x03. C - Debugging](0x03-debugging)                                                |   Debugging techniques                             |
 |[0x04. C - More functions, more nested loops](0x04-more_functions_nested_loops)      |   A deeper dive into functions and nested loops    |
 |[0x05. C - Pointers, arrays and strings](0x05-pointers_arrays_strings)               |   An introduction to pointers, arrays and strings  |
+|[0x06. C - More pointers, arrays and strings](0x06-pointers_arrays_strings)          |   A deeper dive into pointers, arrays and strings  |
+|[0x07. C - Even more pointers, arrays and strings](0x07-pointers_arrays_strings)     |   More on pointers, arrays and strings             |
+|[ 0x08. C - Recursion](0x08-recursion)                                               |   Introduction to Recursion                        |
