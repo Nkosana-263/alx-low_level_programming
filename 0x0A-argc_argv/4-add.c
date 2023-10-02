@@ -8,7 +8,8 @@
  * @argv: An array of pointers to the arguments
  *
  * Description: Adds positive numbers and prints the result
- * Return: 0 if successful, 1 if there are any invalid inputs or no numbers provided
+ * Return: 0 if successful, 1 if there are any invalid
+ *         inputs or no numbers provided
  */
 int main(int argc, char *argv[])
 {
