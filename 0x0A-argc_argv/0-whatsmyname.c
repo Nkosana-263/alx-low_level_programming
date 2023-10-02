@@ -8,11 +8,9 @@
  * Description: Prints the program name, followed by a new line.
  * Return: Always 0 (Success).
  */
-int main(int argc, char *argv[])
-{
-	(void)argc; // To suppress unused parameter warning
-	
-	printf("%s\n", argv[0]);
+int main(int argc __attribute__((unused)), char *argv[])
+{	
+	printf("%s\n", *argv);
 
 	return (0);
 }
