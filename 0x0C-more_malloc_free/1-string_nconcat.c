@@ -1,6 +1,24 @@
 #include <stdlib.h>
 #include "main.h"
 
+size_t _strlen(char *string);
+/**
+ * _strlen - Calculates and returns the length of a string.
+ *
+ * @string: The string to calculate the length of.
+ *
+ * Return: The length of the string.
+ */
+size_t _strlen(char *string) {
+	size_t length = 0;
+
+	while (string[length] != '\0') {
+		length++;
+	}
+
+	return length;
+}
+
 /**
  * string_nconcat - Concatenates two strings.
  *
@@ -12,51 +30,27 @@
  *         which contains the concatenated string, or NULL
  *         if the function fails.
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n)
-{
-	char *s;
-	unsigned int i = 0, j = 0, s1_len = 0, s2_len = 0;
+char *string_nconcat(char *s1, char *s2, unsigned int n) {
+	if (s1 == NULL || s2 == NULL) {
+		return (NULL);
+	}
+	
+	size_t s1_len = _strlen(s1);
+	size_t s2_len = _strlen(s2);
 
-	while (s1 && s1[s1_len])
-	{
-		s1_len++;
-	}
-	while (s2 && s2[s2_len])
-	{
-		s2_len++;
-	}
+	size_t new_string_len = s1_len + n + 1;
 
-	if (n < s2_len)
-	{
-		s = malloc(sizeof(char) * (s1_len + n + 1));
-	}
-	else
-	{
-		s = malloc(sizeof(char) * (s1_len + s2_len + 1));
-	}
+	char *new_string = malloc(new_string_len);
 
-	if (!s)
-	{
+	if (new_string == NULL) {
 		return (NULL);
 	}
 
-	while (i < s1_len)
-	{
-		s[i] = s1[i];
-		i++;
-	}
+	memcpy(new_string, s1, s1_len);
 
-	while (n < s2_len && i < (s1_len + n))
-	{
-		s[i++] = s2[j++];
-	}
+	memcpy(new_string + s1_len, s2, n);
 
-	while (n >= s2_len && i < (s1_len + s2_len))
-	{
-		s[i++] = s2[j++];
-	}
+	new_string[new_string_len - 1] = '\0';
 
-	s[i] = '\0';
-
-	return (s);
+	return (new_string);
 }
