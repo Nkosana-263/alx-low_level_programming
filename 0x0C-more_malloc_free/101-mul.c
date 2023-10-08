@@ -3,7 +3,8 @@
 #include "main.h"
 
 /**
- * is_digit - Checks if a string contains a non-digit character.
+ * is_digit - Checks if a string contains a non-digit
+ * character.
  * @s: The string to evaluate.
  *
  * Return: 0 if a non-digit is found, 1 otherwise.
