@@ -3,15 +3,14 @@
 #include "main.h"
 
 /**
- * is_digit - Checks if a string contains a non-digit character.
- * @s: The string to evaluate.
- * 
- * Return: 0 if a non-digit is found, 1 otherwise.
+ * is_digit - checks if a string contains a non-digit char
+ * @s: string to be evaluated
+ *
+ * Return: 0 if a non-digit is found, 1 otherwise
  */
 int is_digit(char *s)
 {
 	int i = 0;
-
 	while (s[i])
 	{
 		if (s[i] < '0' || s[i] > '9')
@@ -22,14 +21,15 @@ int is_digit(char *s)
 }
 
 /**
- * _strlen - Calculates the length of a string.
- * @s: The string to evaluate.
+ * _strlen - returns the length of a string
+ * @s: string to evaluate
  *
- * Return: The length of the string.
+ * Return: the length of the string
  */
 int _strlen(char *s)
 {
 	int i = 0;
+
 	while (s[i] != '\0')
 	{
 		i++;
@@ -38,7 +38,7 @@ int _strlen(char *s)
 }
 
 /**
- * errors - Handles errors for the `main()` function.
+ * errors - handles errors for main
  */
 void errors(void)
 {
@@ -47,11 +47,11 @@ void errors(void)
 }
 
 /**
- * main - Multiplies two positive numbers.
- * @argc: The number of arguments.
- * @argv: An array of arguments.
+ * main - multiplies two positive numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
- * Return: Always 0 (success).
+ * Return: always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
 			carry += result[len1 + len2 + 1] + (digit1 * digit2);
 			result[len1 + len2 + 1] = carry % 10;
 			carry /= 10;
-		}	
+		}
 		if (carry > 0)
 			result[len1 + len2 + 1] += carry;
 	}
