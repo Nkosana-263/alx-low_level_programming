@@ -9,22 +9,23 @@
  *
  * Return: A pointer to the new array, or NULL if the function fails.
  */
-int *array_range(int min, int max) {
-	if (min > max) {
+int *array_range(int min, int max)
+{
+	int *ptr;
+	int i, size;
+
+	if (min > max)
 		return (NULL);
-	}
 
-	int size = max - min + 1;
+	size = max - min + 1;
 
-	int *array = malloc(size * sizeof(int));
+	ptr = malloc(sizeof(int) * size);
 
-	if (array == NULL) {
+	if (ptr == NULL)
 		return (NULL);
-	}
 
-	for (int i = 0; i < size; i++) {
-		array[i] = min++;
-	}
+	for (i = 0; min <= max; i++)
+		ptr[i] = min++;
 
-	return (array);
+	return (ptr);
 }
