@@ -6,7 +6,8 @@
  *
  * @b: The size of the memory to allocate in bytes.
  *
- * Return: A pointer to the allocated memory, or 98 if malloc fails.
+ * Return: A pointer to the allocated memory,
+ *         or 98 if malloc fails.
  */
 void *malloc_checked(unsigned int b) {
 	void *ptr = malloc(b);
