@@ -8,8 +8,8 @@
  *
  * Return: The length of the string.
  */
-size_t _strlen(char *string) {
-	size_t length = 0;
+int _strlen(char *string) {
+	int length = 0;
 
 	while (string[length] != '\0') {
 		length++;
@@ -34,8 +34,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n) {
 		return (NULL);
 	}
 	
-	size_t s1_len = _strlen(s1);
-	size_t s2_len = _strlen(s2);
+	int s1_len = _strlen(s1);
+	int s2_len = _strlen(s2);
 
 	size_t new_string_len = s1_len + n + 1;
 
