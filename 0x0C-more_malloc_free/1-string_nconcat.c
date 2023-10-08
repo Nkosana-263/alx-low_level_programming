@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
 
-size_t _strlen(char *string);
 /**
  * _strlen - Calculates and returns the length of a string.
  *
