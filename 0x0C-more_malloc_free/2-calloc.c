@@ -11,7 +11,8 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	if (s == NULL) {
+	if (s == NULL)
+	{
 		return (NULL);
 	}
 
@@ -21,7 +22,7 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	}
 
-	return s;
+	return (s);
 }
 
 /**
