@@ -2,15 +2,12 @@
 #include "main.h"
 
 /**
- * string_nconcat - Concatenates two strings.
+ * *string_nconcat - concatenates n bytes of a string to another string
+ * @s1: string to append to
+ * @s2: string to concatenate from
+ * @n: number of bytes from s2 to concatenate to s1
  *
- * @s1: The first string.
- * @s2: The second string.
- * @n: The number of bytes to copy from the second string.
- * 
- * Return: A pointer to a newly allocated space in memory,
- *         which contains the concatenated string, or NULL
- *         if the function fails.
+ * Return: pointer to the resulting string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
