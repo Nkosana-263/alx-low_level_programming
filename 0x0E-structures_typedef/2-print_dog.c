@@ -7,7 +7,8 @@
  *
  * Description: This function prints the name, age,
  *              and owner of a struct dog. If any
- *              element is NULL, it prints "(nil)" instead.
+ *              element is NULL, it prints "(nil)"
+ *              instead.
  */
 void print_dog(struct dog *d)
 {
