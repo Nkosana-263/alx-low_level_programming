@@ -5,8 +5,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main() {
+int main()
+{
 	char *filename = __FILE__;
+
 	printf("%s\n", filename);
 
 	return (0);
