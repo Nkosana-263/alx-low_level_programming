@@ -12,7 +12,6 @@ void print_all(const char * const format, ...)
 	unsigned int i = 0;
 	char *str;
 	char current_format;
-
 	va_start(args, format);
 
 	while (format && format[i])
@@ -40,14 +39,10 @@ void print_all(const char * const format, ...)
 				i++;
 				continue;
 		}
-
 		if (format[i + 1] != '\0')
 			printf(", ");
-
 		i++;
 	}
-
 	va_end(args);
-
 	printf("\n");
 }
